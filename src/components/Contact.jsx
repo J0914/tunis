@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <>
-      <form className="contactform" onSubmit={handleSubmit(onSubmit)}>
+      <form action='mailto:jordynsechrist@gmail.com' method='GET' className="contactform">
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
@@ -75,9 +75,9 @@ const Contact = () => {
           <div className="col-12">
             <div className="form-group">
               <textarea
-                {...register("message", { required: true })}
-                name="message"
-                placeholder="YOUR MESSAGE"
+                {...register("body", { required: true })}
+                name="body"
+                placeholder="This will open your desktop email client upon submit."
               ></textarea>
               {errors.message && (
                 <span className="invalid-feedback">Message is required.</span>

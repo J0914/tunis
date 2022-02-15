@@ -4,7 +4,7 @@ import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Blog from "../../components/blog/Blog";
+// import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 
@@ -13,7 +13,7 @@ const menuItem = [
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {
@@ -156,9 +156,9 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               {/*  Articles Starts  */}
-              <div className="row pb-50">
+              {/* <div className="row pb-50">
                 <Blog />
-              </div>
+              </div> */}
               {/* Articles Ends */}
             </div>
           </TabPanel>

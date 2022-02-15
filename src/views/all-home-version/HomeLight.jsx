@@ -4,7 +4,7 @@ import Hero from "../../components/hero/HeroLight";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/PortfolioLight";
-import Blog from "../../components/blog/BlogLight";
+// import Blog from "../../components/blog/BlogLight";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import AnimatedCursor from "react-animated-cursor";
@@ -14,7 +14,7 @@ const menuItem = [
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  // { icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeLight = () => {
@@ -167,9 +167,9 @@ const HomeLight = () => {
               data-aos-duration="1200"
             >
               {/*  Articles Starts  */}
-              <div className="row pb-50">
+              {/* <div className="row pb-50">
                 <Blog />
-              </div>
+              </div> */}
               {/* Articles Ends */}
             </div>
           </TabPanel>
